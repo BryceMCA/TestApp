@@ -1,4 +1,4 @@
 == README
 
-A Test app using Ruby 2.2.4 and Rails
+A Test app using Ruby 2.2.4, Rails 4.2.6, and Sqlite3
 
