@@ -11,7 +11,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160428144200) do
+ActiveRecord::Schema.define(version: 20160510183837) do
+
+  create_table "messages", force: :cascade do |t|
+    t.string   "author"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.text     "content"
+  end
 
   create_table "ruby_win_sources", force: :cascade do |t|
     t.string   "anme"
